@@ -1,1 +1,3 @@
-<p>home works!</p>
+<input type="text" [(ngModel)]="name" placeholder="Enter name">
+<h3 *ngIf="name">{{ 'WELCOME' | i18n:{name:name} }}</h3>
+<p *ngIf="name">{{ 'THANK_YOU' | i18n:{name:name} }}</p>

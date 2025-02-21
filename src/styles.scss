@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+
+  &:nth-child(1) { background-color: #007bff; color: white; }
+  &:nth-child(2) { background-color: #28a745; color: white; }
+  &:nth-child(3) { background-color: #ffc107; color: black; }
+}
+
+input {
+  padding: 8px;
+  width: 300px;
+  margin-top: 10px;
+}

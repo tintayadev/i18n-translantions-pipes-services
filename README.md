@@ -1,6 +1,6 @@
 # Angular 19 Internationalization (i18n) Using Pipes
 
-![Project Screenshot](img/sample.png)
+![Project Screenshot](img/sample.gif)
 
 This project demonstrates **internationalization (i18n)** in **Angular 19**, using:
 - **Standalone components**
